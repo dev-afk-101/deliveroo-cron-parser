@@ -1,7 +1,7 @@
-#Cron Expression Parser
+# Cron Expression Parser
 The script was developed in java and maven was used for building and unit testing. The decision to use these tools was taken given the popularity of the tools in java world. only dependency is junit.
 
-###Building the script
+### Building the script
 N.b. You will need at least Apache Maven 3.x and JDK 1.12 to build and run the script.
 
 From the project root, do mvn clean install :
@@ -11,7 +11,7 @@ $ mvn clean install
 
 [INFO] BUILD SUCCESS
 ````
-###Running the script
+### Running the script
 navigate to project-root/target
 ```bash
 $ java -jar deliveroo-cron-parser.jar "0 0 1,2,3,15 * 1-5 /usr/bin/find"
